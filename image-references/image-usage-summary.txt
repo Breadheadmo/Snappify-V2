@@ -1,0 +1,23 @@
+﻿
+Name                                  Count
+----                                  -----
+4k-webcam-professional.jpg                1
+bluetooth-speaker-portable.jpg            1
+cable-organizer-minimal.jpg               1
+fast-charger-65w.jpg                      1
+gaming-headset-black.jpg                  1
+laptop-stand-aluminum-minimal.jpg         1
+leather-phone-pouch-black.jpg             1
+led-ring-light-professional.jpg           1
+mechanical-keyboard-minimal-white.jpg     1
+placeholder.svg                           6
+power-bank-sleek-black.jpg                1
+premium-phone-case.jpg                    1
+ring-light-professional.jpg               1
+tempered-glass-screen.jpg                 1
+usbc-laptop-charger.jpg                   1
+usb-hub-modern-aluminum.jpg               1
+wireless-charging-pad-minimal.jpg         1
+wireless-earbuds-premium.jpg              1
+
+
