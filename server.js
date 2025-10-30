@@ -4,7 +4,7 @@ const next = require("next");
 const path = require("path");
 
 const dev = process.env.NODE_ENV !== "production";
-const hostname = process.env.HOSTNAME || "0.0.0.0"; // allows external access on cPanel
+const hostname = "0.0.0.0"; // Always use 0.0.0.0 for cPanel
 const port = process.env.PORT || 3000;
 
 const app = next({ dev });
@@ -18,6 +18,7 @@ app.prepare().then(() => {
 
   // ✅ Serve static files (for cPanel environments)
   server.use("/public", express.static(path.join(__dirname, "public")));
+  server.use(express.static(path.join(__dirname, "public")));
 
   // ✅ Let Next.js handle everything else
   server.all("*", (req, res) => {
