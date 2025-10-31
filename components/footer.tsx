@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="relative h-8 w-8 rounded-lg bg-foreground flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-foreground to-foreground/80" />
+                <div className="absolute inset-0 bg-linear-to-br from-foreground to-foreground/80" />
                 <span className="relative text-background font-bold text-lg">S</span>
               </div>
               <span className="text-xl font-bold">Snappify</span>
@@ -17,7 +17,7 @@ export function Footer() {
 
             <div className="space-y-2 mb-4">
               <div className="flex items-start gap-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
                 <span>
                   55 Richards Drive
                   <br />
@@ -29,12 +29,12 @@ export function Footer() {
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Phone className="h-4 w-4 flex-shrink-0" />
-                <span>+27 (0) 11 123 4567</span>
+                <Phone className="h-4 w-4 shrink-0" />
+                <span>+27 665818875</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>info@snappify.co.za</span>
+                <Mail className="h-4 w-4 shrink-0" />
+                <span>support@snappify.co.za</span>
               </div>
             </div>
 

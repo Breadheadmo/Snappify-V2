@@ -1,12 +1,19 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { getProductById, getRelatedProducts } from "@/lib/products"
+import { getProductById, getRelatedProducts, allProducts } from "@/lib/products"
 import { notFound } from "next/navigation"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Check } from "lucide-react"
 import Link from "next/link"
 import { ProductMagnifier } from "@/components/product-magnifier"
+
+// Add this function to generate static paths for all products
+export async function generateStaticParams() {
+  return allProducts.map((product) => ({
+    id: product.id,
+  }))
+}
 
 export default async function ProductDetailPage({
   params,
